@@ -1,2 +1,2 @@
 # Arduboy
-Source code for Arduboy games
+Source code for a Memory game for the Arduboy - work in progress
