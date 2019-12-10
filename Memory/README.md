@@ -1,7 +1,7 @@
 # Arduboy Memory Game
 Source code for a Memory game for the Arduboy - work in progress
 
-Newest version can be found in the DevFolder.
+Newest version can be found in the MemoryDevBranch folder.
 
 Other folders are code for specific dev logs.
 
