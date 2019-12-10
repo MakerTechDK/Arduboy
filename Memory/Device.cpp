@@ -1,5 +1,4 @@
 #include "Device.hpp"
-#include "Sprites.hpp"
 
 Arduboy2 arduboy;
 
