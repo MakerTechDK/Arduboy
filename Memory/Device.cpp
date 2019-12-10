@@ -8,7 +8,7 @@ void startDevice(){
 }
 
 void setSquare(Vector pos){
-    arduboy.drawRect(pos.x, pos.y, 16, 16, WHITE); 
+    arduboy.drawRect(pos.x*16, pos.y*16, 16, 16, WHITE); 
 }
 
 void clearScreen(){

@@ -8,11 +8,10 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   clearScreen();
   for(int x = 0; x < 8; ++x){
     for(int y = 0; y < 8; ++y){
-        setSquare(Vector(x*16, y*16));
+        setSquare(Vector(x, y));
     }    
   }
   draw();
