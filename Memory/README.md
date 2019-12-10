@@ -1,7 +1,7 @@
 # Arduboy Memory Game
 Source code for a Memory game for the Arduboy - work in progress
 
-Newest version can be found in the Dev branch.
+Newest version can be found in the main branch.
 
 Other branches are for specific dev logs.
 
