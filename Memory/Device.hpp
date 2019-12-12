@@ -5,7 +5,7 @@
 #include "Math.hpp"
 
 void startDevice();
-void setSquare(Vector pos);
+void setSquare(Position pos);
 void clearScreen();
 void draw();
 
