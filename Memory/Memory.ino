@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   clearScreen();
-  for(int x = 0; x < 7; ++x){
+  for(int x = 0; x < 6; ++x){
     for(int y = 0; y < 4; ++y){
         setSquare(Vector(x, y));
     }    
