@@ -11,7 +11,9 @@ void loop() {
   clearScreen();
   for(int x = 0; x < 6; ++x){
     for(int y = 0; y < 4; ++y){
-        setSquare(Vector(x, y));
+      Position pos(x,y);
+        setSquare(pos);
+        setSprite((y*6+x) % 12, pos);
     }    
   }
   draw();
