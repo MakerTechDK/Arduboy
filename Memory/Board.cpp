@@ -39,6 +39,8 @@ void setCardPositions(Card c){
 }
 
 void setupBoard(){
+    randomSeed(micros());
+    
     for(Card c = 0; c < 12; ++c){
         setCardPositions(c);
     }
