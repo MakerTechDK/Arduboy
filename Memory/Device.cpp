@@ -23,3 +23,7 @@ void clearScreen(){
 void draw(){
     arduboy.display();
 }
+
+bool buttonPressed(Button b){
+  return arduboy.pressed(b);  
+}

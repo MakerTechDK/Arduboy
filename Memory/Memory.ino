@@ -3,6 +3,7 @@
 #include "Board.hpp"
 #include "GameState.hpp"
 #include "Cursor.hpp"
+#include "Input.hpp"
 #include <Arduboy2.h>
 
 void setup() {
@@ -13,6 +14,7 @@ void setup() {
 }
 
 void loop() {
+  handleInput();
   clearScreen();
   Position cursorPosition = getCursorPosition();
   drawCursor();
