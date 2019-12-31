@@ -6,6 +6,7 @@
 #include "Sprites.hpp"
 
 void startDevice();
+void setCursor(Position pos);
 void setSquare(Position pos);
 void setSprite(Sprite sprite, Position pos);
 void clearScreen();
